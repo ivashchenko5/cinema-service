@@ -1,4 +1,4 @@
-#CINEMA-SERVICE<br>
+# CINEMA SERVICE<br>
 
 ---
 ## Table of contents
@@ -10,8 +10,8 @@
 
 ## About a project
 <a id="about-a-project"></a>
-Cinema service is a basic web application for online booking of cinema tickets.<br> 
-In this pet-project, the client can register, log in, and also perform all CRUD operations on the database.<br><br>
+Cinema service is a basic web application for online booking of cinema tickets.<br>
+In this pet-project, the client can register, log in.<br><br>
 The project was created to demonstrate my skills in<br>
 Spring Core, Spring Web, Spring Security, Hibernate, OOP, SOLID and REST
 
@@ -78,11 +78,11 @@ PUT: /shopping-carts/movie-sessions - add movie ticket to cart
 ## Technologies
 <a id="technologies"></a>
 
-* [Java 11](https://en.wikipedia.org/wiki/Java_(programming_language))
-* [Hibernate](https://en.wikipedia.org/wiki/Hibernate_(framework))
-* [Spring](https://en.wikipedia.org/wiki/Spring_Framework)
-* [MySQL](https://en.wikipedia.org/wiki/MySQL)
-* [Apache Tomcat 9.0.50](https://en.wikipedia.org/wiki/Apache_Tomcat)
+* Java 11
+* Hibernate
+* Spring
+* MySQL
+* Apache Tomcat
 ***
 
 ## Setup.
@@ -92,11 +92,11 @@ __To run this application please install:__
 * [IntelliJ IDEA Ultimate](https://www.jetbrains.com/lp/intellij-frameworks/)
 * [MySQL](https://dev.mysql.com/downloads/)
 * [Tomcat](https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.50/bin/)
-<br><br>
+  <br><br>
 
 __Steps__
 * Fork this project and clone it.
-* Create schema in your "MySQL Workbench" 
+* Create schema in your "MySQL Workbench"
 * Add your personal info to db.properties to connect to your database.
 * Add Tomcat 9.0.50 configuration.
 * To sign in you can use default account:
@@ -123,6 +123,3 @@ hibernate.show_sql=true
 hibernate.hbm2ddl.auto=create
 hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 ```
-
-
-
