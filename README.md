@@ -11,9 +11,10 @@
 ## About a project
 <a id="about-a-project"></a>
 Cinema service is a basic web application for online booking of cinema tickets.<br>
-In this pet-project, the client can register, log in.<br><br>
-The project was created to demonstrate my skills in<br>
-Spring Core, Spring Web, Spring Security, Hibernate, OOP, SOLID and REST
+In this pet-project, the client can register and log in.<br><br>
+
+The project was created using the following technologies/principles:<br>
+Java 11, Spring Core, Spring Web, Spring Security, Hibernate, OOP, SOLID and REST
 
 
 ***
